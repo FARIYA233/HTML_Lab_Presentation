@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE web programming</title>
+</head>
+<body>
+    <h1>this is web programming</h1>
+    <h2>this is web programming</h2>
+    <h3>this is web programming</h3>
+    <h4>this is web programming</h4>
+    <h5>this is web programming</h5>
+    <h6>this is web programming</h6>
+    <p>today <b>is the first</b>  lab of web programming</p>
+    p>HTML is <strong>not a programming
+language</strong>. It is a
+<em>markup</em> language.</p>
+
+<p>Use <code>&lt;!DOCTYPE html></code>
+for HTML5. Use <mark>this tag</mark>
+to highlight important text.</p>
+
+<hr>
+<p>After a thematic break.</p>
+    <a href="#contact">
+  Jump to Contact section
+</a>
+
+<!-- External link, new tab -->
+<a href="https://bauet.ac.bd"
+   target="_blank">
+  BAUET Website
+</a>
+
+<!-- Email link -->
+<a href="mailto:info@bauet.ac.bd">
+  Send email
+</a>
+<img
+  src="profile.jpg"
+  alt="Student profile photo"
+  width="200"
+  height="150">
+
+<!-- With caption -->
+<figure>
+  <img
+    src="campus.jpg"
+    alt="BAUET campus aerial view"
+    width="400">
+  <figcaption>
+    Fig 1. BAUET campus, aerial view.
+  </figcaption>
+</figure>
+<ul>
+  <li>HTML5 Semantics</li>
+  <li>CSS3 Layouts</li>
+  <li>JavaScript DOM</li>
+</ul>
+
+<!-- Ordered — sequence matters -->
+<ol>
+  <li>Write the HTML structure</li>
+  <li>Apply CSS styles</li>
+  <li>Add JavaScript behaviour</li>
+</ol>
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language
+      — describes structure</dd>
+
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets
+      — controls presentation</dd>
+
+  <dt>JS</dt>
+  <dd>JavaScript
+      — adds interactivity</dd>
+</dl>
+div id="header">
+  <div id="nav">Links</div>
+</div>
+<div id="content">
+  <div class="post">Article</div>
+</div>
+<div id="footer">Copyright</div>
+<header>
+  <nav>Links</nav>
+</header>
+
+<main>
+  <article>
+    <section>Content</section>
+  </article>
+  <aside>Sidebar</aside>
+</main>
+
+<footer>Copyright</footer>
+<table border="1">
+  <caption>Weekly Lab Schedule</caption>
+
+  <thead>
+    <tr>
+      <th>Day</th>
+      <th>09:00–11:00</th>
+      <th>11:00–13:00</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Sunday</td>
+      <td>Web Programming</td>
+      <td>Data Structures</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr><td colspan="3">
+      Summer 2026
+    </td></tr>
+  </tfoot>
+</table>
+<!-- colspan merges across columns -->
+<td colspan="3">
+  Lunch Break (all halls)
+</td>
+
+<!-- rowspan merges across rows -->
+<td rowspan="2">
+  Web Lab (2 hours)
+</td>
+<form action="#" method="POST">
+
+  <fieldset>
+    <legend>Student Information</legend>
+
+    <!-- for= must match id= -->
+    <label for="n">Full Name:</label>
+    <input type="text"
+           id="n"
+           name="fullname">
+
+    <label for="e">Email:</label>
+    <input type="email"
+           id="e"
+           name="email">
+
+  </fieldset>
+
+  <button type="submit">Submit</button>
+  <button type="reset">Clear</button>
+
+</form>
+nput type="text"
+       name="name">
+
+<input type="email"
+       name="email">
+
+<input type="password"
+       name="pwd">
+
+<input type="tel"
+       name="phone">
+
+<input type="date"
+       name="dob">
+
+<input type="number"
+       min="1"
+       max="100">
+       <input type="radio" name="yr"
+       id="y1" value="1">
+<label for="y1">Year 1</label>
+
+<input type="radio" name="yr"
+       id="y2" value="2">
+<label for="y2">Year 2</label>
+
+<!-- Checkbox: independent choices -->
+<input type="checkbox" name="html"
+       id="c1">
+<label for="c1">HTML</label>
+
+<!-- Select dropdown -->
+<select name="size" id="sz">
+  <option>S</option>
+  <option>M</option>
+  <option>L</option>
+</select>
+input type="text" required>
+
+<!-- placeholder shows hint text -->
+<input type="text"
+       placeholder="Your full name">
+
+<!-- pattern enforces a regex -->
+<input type="text"
+       pattern="[0-9]{9}"
+       title="Exactly 9 digits"
+       required>
+
+<!-- min/max for numbers and dates -->
+<input type="number"
+       min="1" max="100">
+
+<!-- accept filters file picker -->
+<input type="file"
+       accept=".pdf,.png">
+       figure>
+
+  <img
+    src="campus.jpg"
+    alt="BAUET campus aerial view"
+    width="300">
+
+  <figcaption>
+    Fig. 1 — BAUET main campus,
+    aerial view.
+  </figcaption>
+
+</figure>
+<video controls width="480">
+  <source
+    src="lecture.mp4"
+    type="video/mp4">
+  Your browser cannot play video.
+</video>
+
+<!-- Audio player -->
+<audio controls>
+  <source
+    src="podcast.mp3"
+    type="audio/mpeg">
+</audio>
+
+<!-- iFrame embed -->
+<iframe
+  src="https://maps.google.com"
+  width="100%"
+  height="300"
+  loading="lazy"
+  allowfullscreen>
+</iframe>
+</body>
+</html>

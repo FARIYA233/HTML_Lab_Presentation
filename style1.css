@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f4ee;
+    font-family: Arial, sans-serif;
+}
+
+.slide {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 80px 11%;
+    position: relative;
+}
+
+/* Top Text */
+.top {
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #826d5c;
+    margin-bottom: 35px;
+}
+
+/* Headings */
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 60px;
+    color: #181818;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 42px;
+    color: #222;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-size: 34px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+h5 {
+    font-size: 23px;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+h6 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Line */
+
+.line {
+    width: 60px;
+    height: 2px;
+    background-color: #8b2f1f;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Description */
+
+.description {
+    width: 650px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #6d6d6d;
+}
+
+/* Page Number */
+
+.page {
+    position: fixed;
+    bottom: 25px;
+    right: 10%;
+    color: #c9c3bb;
+    font-size: 14px;
+}
